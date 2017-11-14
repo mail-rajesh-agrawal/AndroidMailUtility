@@ -3,7 +3,7 @@
 This class will be used to send emails through Android App
 
 
-	==================Add This permission to AndroidManifest.xml ==================================
+	==================Add This permission to AndroidManifest.xml ==
  <uses-permission android:name="android.permission.INTERNET" />
  
     
@@ -11,7 +11,7 @@ This class will be used to send emails through Android App
 
 	
 		
-		==================Add This code to Activity class 	Mostly in oncreate ==================================
+		==================Add This code to Activity class 	Mostly in oncreate ===
     
 		android.os.StrictMode.ThreadPolicy tp = android.os.StrictMode.ThreadPolicy.LAX;
 		android.os.StrictMode.setThreadPolicy(tp);
@@ -28,4 +28,4 @@ This class will be used to send emails through Android App
 		param.put("user", AndroidConstants.EMAIL_ID);
 		mu.sendEmail(param);
     
-    =========================Add the provided jar files in AndroidProject\lib folder
+    ==Add the provided jar files in AndroidProject\lib folder
