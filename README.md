@@ -4,8 +4,9 @@ This class will be used to send emails through Android App
 
 
 	==================Add This permission to AndroidManifest.xml ==================================
- <uses-permission android:name="android.permission.INTERNET" >
-    </uses-permission>
+ <uses-permission android:name="android.permission.INTERNET" />
+ 
+    
 	
 
 	
@@ -17,7 +18,7 @@ This class will be used to send emails through Android App
 		
 		MailUtility mu = new MailUtility();
 		HashMap param = new HashMap();
-		param.put("to", "teamtechnowings@gmail.com");
+		param.put("to", "mail.rajesh.agrawal@gmail.com");
 		param.put("from", AndroidConstants.EMAIL_ID);
 		param.put("user", AndroidConstants.EMAIL_ID);
 		param.put("password", AndroidConstants.EMAIL_PASS);
